@@ -4,28 +4,39 @@ import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 
 const testimonials = [
   {
-    name: "Rashi",
-    avatar: "R",
-    title: "Software Engineer",
-    description: "This is the best application I've used!",
+    name: "The Seasoned Developer",
+    avatar: "S",
+    title: "Software Developer",
+    description:
+      "Even with years of experience, this AI has saved me countless hours. Whether it's optimizing existing code, suggesting cleaner logic, or helping me tackle a new framework, this tool is an invaluable member of my development team.",
   },
   {
-    name: "Rashi2",
-    avatar: "R",
-    title: "Software Engineer",
-    description: "This is the best application I've used!",
+    name: "The Designer's Sidekick",
+    avatar: "D",
+    title: "Designer",
+    description:
+      "This AI is a game-changer for my design workflow! It generates image variations faster than I can sketch them, giving me instant inspiration. Whether I need a basic UI mockup or an eye-catching illustration, this tool speeds up my process while opening new creative possibilities.",
   },
   {
-    name: "Rashi3",
-    avatar: "R",
-    title: "Software Engineer",
-    description: "This is the best application I've used!",
+    name: "The Marketing Whiz",
+    avatar: "M",
+    title: "Marketer",
+    description:
+      "Being a solo marketer, I need all the help I can get. This AI is my secret weapon. It writes snappy ad copy, crafts engaging social posts, and even puts together short, attention-grabbing videos for my campaigns. The time it saves me is worth its weight in gold.",
   },
   {
-    name: "Rashi3",
-    avatar: "R",
-    title: "Software Engineer",
-    description: "This is the best application I've used!",
+    name: "The Aspiring Coder",
+    avatar: "C",
+    title: "Student",
+    description:
+      "As a programming newbie, I get stuck...a lot. This AI has been my study buddy. It generates code snippets to explain concepts, debugs my work, and suggests clever ways to tackle problems. I'm learning faster and building confidence thanks to this tool.",
+  },
+  {
+    name: "The Overwhelmed Writer",
+    avatar: "W",
+    title: "Content writer",
+    description:
+      "Writer's block is my worst enemy. This AI gets me going!  Need a captivating intro? No problem. Stuck on a plot point? It offers creative story twists. Even basic grammar checks! It's like having a brainstorming partner and editor all in one.",
   },
 ];
 
