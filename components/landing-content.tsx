@@ -38,6 +38,13 @@ const testimonials = [
     description:
       "Writer's block is my worst enemy. This AI gets me going!  Need a captivating intro? No problem. Stuck on a plot point? It offers creative story twists. Even basic grammar checks! It's like having a brainstorming partner and editor all in one.",
   },
+  {
+    name: "The Audio Enthusiast",
+    avatar: "A",
+    title: "Music Producer",
+    description:
+      "This AI has unleashed my creativity. I can use it to find unusual samples, experiment with generative melodies, and even create backing tracks for my vocals. It's opened up a whole new world of sonic possibilities.",
+  },
 ];
 
 export const LandingContent = () => {
