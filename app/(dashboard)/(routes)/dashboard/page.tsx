@@ -9,6 +9,7 @@ import {
   MessageSquare,
   Music,
   VideoIcon,
+  Camera,
 } from "lucide-react";
 import { useRouter } from "next/navigation";
 
@@ -47,6 +48,13 @@ const tools = [
     color: "text-green-500",
     bgColor: "bg-green-700/10",
     href: "/code",
+  },
+  {
+    label: "Photo Enhancement",
+    icon: Camera,
+    href: "/photo",
+    color: "text-purple-500",
+    bgColor: "bg-purple-500/10",
   },
 ];
 

@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Montserrat } from "next/font/google";
 import { cn } from "@/lib/utils";
 import {
+  Camera,
   Code,
   ImageIcon,
   LayoutDashboard,
@@ -58,6 +59,12 @@ const routes = [
     icon: Code,
     color: "text-green-700",
     href: "/code",
+  },
+  {
+    label: "Photo Enhancement",
+    icon: Camera,
+    href: "/photo",
+    color: "text-purple-500",
   },
   {
     label: "Settings",
