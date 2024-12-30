@@ -46,7 +46,7 @@ export async function GET() {
           price_data: {
             currency: "USD",
             product_data: {
-              name: "AIdea Pro",
+              name: "AIris Pro",
               description: "Unlimited AI Generations",
             },
             unit_amount: 2000, //$20

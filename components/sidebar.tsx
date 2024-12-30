@@ -82,7 +82,7 @@ const Sidebar = ({ apiLimitCount = 0, isPro = false }: SidebarProps) => {
             <Image fill alt="Logo1" src="/logo1.png" />
           </div>
           <h1 className={cn("text-2xl font-bold", montserrat.className)}>
-            AIdea
+            AIris
           </h1>
         </Link>
         <div className="space-y-1">
