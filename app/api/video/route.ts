@@ -30,7 +30,7 @@ export async function POST(req: Request) {
     }
 
     const response = await replicate.run(
-      "anotherjesse/zeroscope-v2-xl:9f747673945c62801b13b84701c783929c0ee784e4748ec062204894dda1a351",
+      "lightricks/ltx-video:c441c271f0cfd578aa0cd14a8488329dd10b796313a9335573a4a63507a976a5",
       {
         input: {
           prompt: prompt,

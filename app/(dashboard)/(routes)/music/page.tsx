@@ -38,7 +38,7 @@ const MusicPage = () => {
 
       const response = await axios.post("/api/music", values);
 
-      setMusic(response.data.audio);
+      setMusic(response.data);
       form.reset();
     } catch (error: any) {
       //TODO: Open Pro Modal
